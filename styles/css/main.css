@@ -65,9 +65,9 @@
 }
 
 .rasm {
-  width: 900px;
+  width: 700px;
   position: relative;
-  margin-top: -258px;
+  margin-top: -420px;
   margin-left: 600px;
   transform: translate(400px, -450px);
   /* -webkit-animation: aylanish 8s ease-in-out infinite; */
@@ -95,9 +95,16 @@
   border-radius: 50%;
 }
 
+.sayyora {
+  width: 50px;
+  height: 50px;
+  -webkit-animation: sayyora 10s infinite linear;
+          animation: sayyora 10s infinite linear;
+}
+
 @-webkit-keyframes aylanish {
   from {
-    transform: rotate(0);
+    transform: rotate(0deg);
   }
   to {
     transform: rotate(-150deg);
@@ -106,7 +113,23 @@
 
 @keyframes aylanish {
   from {
-    transform: rotate(0);
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-150deg);
+  }
+}
+@-webkit-keyframes sayyora {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-150deg);
+  }
+}
+@keyframes sayyora {
+  from {
+    transform: rotate(0deg);
   }
   to {
     transform: rotate(-150deg);
