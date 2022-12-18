@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.title h1 {
+  font-family: fantasy;
+  font-size: 90px;
+  font-weight: 800;
+  line-height: 108px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  transform: translate(0px, 100px);
+}
+
+.title p {
+  color: #fc6310;
+  font-size: 90px;
+  font-family: fantasy;
+  transform: translate(0px, 100px);
+}
+
+.doira {
+  height: 26px;
+  width: 26px;
+  left: 201px;
+  top: 434px;
+  border-radius: 0px;
+}
+
+.Mars h3 {
+  width: 403px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  transform: translate(0px, 100px);
+}
+
+.prin {
+  height: 156px;
+  width: 407px;
+  left: 298px;
+  top: 656px;
+  border-radius: nullpx;
+  transform: translate(15px, 54px);
+  color: #fff;
+}
+
+.prin span {
+  color: #fc6310;
+}
+
+.block {
+  display: flex;
+}
+
+.book img {
+  width: 1100px;
+  transform: translate(400px, -450px);
+  /* animation: aylanish 8s ease-in-out infinite; */
+}
+
+.book {
+  -webkit-animation: aylanish 8s ease-in-out infinite;
+          animation: aylanish 8s ease-in-out infinite;
+}
+
+.marsuz {
+  background-image: url(/milky-way-full-stars-space\ 1.svg);
+}
+
+.block {
+  transform: translate(0px, 80px);
+}
+
+@-webkit-keyframes aylanish {
+  from {
+    transform: rotate(-10deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
+
+@keyframes aylanish {
+  from {
+    transform: rotate(-10deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}/*# sourceMappingURL=main.css.map */
