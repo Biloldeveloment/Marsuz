@@ -35,14 +35,13 @@
   border-radius: 0px;
 }
 
-.Mars h3 {
+.look h3 {
   width: 403px;
   font-family: Poppins;
   font-size: 30px;
   font-weight: 500;
   line-height: 45px;
   letter-spacing: 0em;
-  text-align: left;
   color: #fff;
   transform: translate(0px, 100px);
 }
@@ -83,11 +82,18 @@
   transform: translate(0px, 80px);
 }
 
+.span1 {
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+}
+
 @keyframes aylanish {
   from {
-    transform: rotate(-10deg);
+    transform: rotate(0);
   }
   to {
-    transform: rotate(0);
+    transform: rotate(360deg);
   }
 }
