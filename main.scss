@@ -1,4 +1,4 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -70,15 +70,15 @@
   margin-top: -420px;
   margin-left: 600px;
   transform: translate(400px, -450px);
-  /* -webkit-animation: aylanish 8s ease-in-out infinite; */
-  /* animation: aylanish 8s ease-in-out infinite; */
-  /* -webkit-animation: aylanish 50s infinite linear; */
+   -webkit-animation: aylanish 8s ease-in-out infinite; 
+   animation: aylanish 8s ease-in-out infinite; 
+   -webkit-animation: aylanish 50s infinite linear;
   animation: aylanish 50s infinite linear;
 }
 
-/* .book {
+ .book {
   animation: aylanish 8s ease-in-out infinite;
-} */
+} 
 
 .marsuz {
   background-image: url(/milky-way-full-stars-space\ 1.svg);
@@ -118,4 +118,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
